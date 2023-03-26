@@ -100,7 +100,7 @@
 		};
 	}}
 >
-	<a class="how-to-play" href="/sverdle/how-to-play">How to play</a>
+	<a class="how-to-play" href="/sverdle/how-to-play">How to play prerender</a>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/hLQl3WQQoQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	<div class="grid" class:playing={!won} class:bad-guess={form?.badGuess}>
 		{#each Array(6) as _, row}
